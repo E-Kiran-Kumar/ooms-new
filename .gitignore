@@ -1,6 +1,38 @@
-__pycache__/
-*.py[cod]
-.pytest_cache/
+
+# Python virtual environments
 venv/
 .venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
 .env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# YOLO model weights
+*.pt
+
+# Input videos
+videos/*
+!videos/.gitkeep
+
+# Generated output
+output/*
+!output/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
