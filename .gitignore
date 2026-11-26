@@ -28,3 +28,22 @@ output/*
 # OS files
 .DS_Store
 Thumbs.db
+
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Model weights
+*.pt
+
+# Input videos
+videos/*
+!videos/.gitkeep
+
+# Generated output
+output/*
+!output/.gitkeep

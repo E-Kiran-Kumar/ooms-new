@@ -1,0 +1,15 @@
+
+# Video processing
+opencv-python
+
+# Numerical operations and image arrays
+numpy
+
+# YOLO object detection
+ultralytics
+
+# Object tracking and detection utilities
+supervision
+
+# Testing
+pytest
